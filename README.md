@@ -43,7 +43,7 @@
 Folder will be created automatically after first launch of the docker container;
 This folder contains latest processed post data for the next itetration as well as a list of processed lenders - **DON'T** delete. Excluded from the git workflow.
 
-Future updates should be pulled to the [cloned-folder], [out] folder with existing data will be connected to the docker container as a volume.
+Future updates should be pulled to the [reddit_message_bot], [out] folder with existing data will be connected to the docker container as a volume.
 
 # 4. "Errors":
 
