@@ -1,0 +1,8 @@
+version: "3"
+services:
+  reddit:
+    build: ./
+    volumes:
+      - ./screenshots:/reddit/app/screenshots
+      - ../out:/reddit/out/
+    restart: always
